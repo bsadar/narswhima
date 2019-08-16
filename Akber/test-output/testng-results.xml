@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40502" started-at="2019-08-06T05:55:35Z" finished-at="2019-08-06T05:56:15Z">
+    <groups>
+      <group name="admin">
+        <method signature="Login.TC2_2()[pri:1, instance:pac1.Login@7c16905e]" name="TC2_2" class="pac1.Login"/>
+      </group> <!-- admin -->
+      <group name="login">
+        <method signature="Login.TC2_1()[pri:2, instance:pac1.Login@7c16905e]" name="TC2_1" class="pac1.Login"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Default test" duration-ms="40502" started-at="2019-08-06T05:55:35Z" finished-at="2019-08-06T05:56:15Z">
+      <class name="pac1.Login">
+        <test-method status="PASS" signature="be()[pri:0, instance:pac1.Login@7c16905e]" name="be" is-config="true" duration-ms="11333" started-at="2019-08-06T05:55:35Z" finished-at="2019-08-06T05:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- be -->
+        <test-method status="PASS" signature="TC2_2()[pri:1, instance:pac1.Login@7c16905e]" name="TC2_2" duration-ms="12336" started-at="2019-08-06T05:55:46Z" finished-at="2019-08-06T05:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_2 -->
+        <test-method status="PASS" signature="bclose()[pri:0, instance:pac1.Login@7c16905e]" name="bclose" is-config="true" duration-ms="2282" started-at="2019-08-06T05:55:58Z" finished-at="2019-08-06T05:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclose -->
+        <test-method status="PASS" signature="be()[pri:0, instance:pac1.Login@7c16905e]" name="be" is-config="true" duration-ms="9600" started-at="2019-08-06T05:56:01Z" finished-at="2019-08-06T05:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- be -->
+        <test-method status="PASS" signature="TC2_1()[pri:2, instance:pac1.Login@7c16905e]" name="TC2_1" duration-ms="2526" started-at="2019-08-06T05:56:10Z" finished-at="2019-08-06T05:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_1 -->
+        <test-method status="PASS" signature="bclose()[pri:0, instance:pac1.Login@7c16905e]" name="bclose" is-config="true" duration-ms="2361" started-at="2019-08-06T05:56:13Z" finished-at="2019-08-06T05:56:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclose -->
+      </class> <!-- pac1.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
